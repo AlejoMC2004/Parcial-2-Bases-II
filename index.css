@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+#contenedor {
+    display: flex;
+    border: 1px solid #000;
+    width: 100%; 
+    max-width: 1200px; 
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#columna-izquierda {
+    flex: 2; 
+    border-right: 1px solid #000;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+
+#columna-derecha {
+    flex: 2; 
+    padding-left: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#busqueda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#busqueda label {
+    margin-right: 10px;
+}
+
+#busqueda input[type="date"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#busqueda button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#busqueda button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#paginacion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#paginacion button {
+    padding: 5px 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#paginacion button:hover {
+    background-color: #333;
+}
+
+#foto-detalle {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#info-detalle {
+    margin-top: 10px;
+    font-weight: bold;
+}
